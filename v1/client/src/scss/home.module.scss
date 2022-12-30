@@ -1,0 +1,193 @@
+@import "./values";
+
+.banner {
+    padding-top: 20px;
+    width: 100vw;
+
+    h1 {
+        text-align: center;
+        margin-top: 160px;
+        font-size: 72px;
+        line-height: 80px;
+        letter-spacing: -3px;
+        color: $dg;
+
+        strong {
+            color: $orange;
+        }
+    }
+
+    p {
+        font-size: 20px;
+        line-height: 28px;
+        letter-spacing: -0.4px;
+        width: 550px;
+        text-align: center;
+        margin-top: 15px;
+    }
+
+    .homebanner {
+        margin-top: 150px;
+        display: block;
+        position: relative;
+    }
+}
+
+.content {
+    .venimos {
+        background-color: $ow;
+        padding-top: 60px;
+        padding-bottom: 60px;
+        margin-top: 100px;
+        display: flex;
+        width: 100vw;
+        padding-left: 10vw;
+        padding-right: 10vw;
+        align-items: center;
+    
+        .title {
+            width: 600px;
+    
+            h1 {
+                color: $dg;
+                font-size: 56px;
+                letter-spacing: 62px;
+                letter-spacing: -2.4px;
+            }
+    
+            p {
+                font-size: 18px;
+                line-height: 26px;
+                letter-spacing: -0.3px;
+                margin-top: 15px;
+            }
+        }
+    
+        .three {
+            display: flex;
+            flex-direction: column;
+            gap: 40px;
+    
+            .threeelement {
+                display: grid;
+                grid-template-columns: 80px 280px;
+                align-items: top;
+                grid-column-gap: 40px;
+    
+                .whitecircle {
+                    background-color: white;
+                    height: 80px;
+                    width: 80px;
+                    border-radius: 80px;
+                    border-radius: 0px 0px 10px rgb(0,0,0,0.05);
+    
+                    img {
+                        height: 50px;
+                        margin-top: 15px;
+                    }
+                }
+    
+                .elementtext {
+                    h4 {
+                        font-size: 22px;
+                        line-height: 30px;
+                        letter-spacing: -0.55px;
+                        color: $db;
+                    }
+    
+                    p {
+                        font-size: 18px;
+                        line-height: 26px;
+                        letter-spacing: -0.3px;
+                        color: $dg;
+                    }
+                }
+            }
+        }
+    }
+
+    .centrados {
+        margin-top: 100px;
+
+        h1 {
+            font-size: 45px;
+            font-weight: 400;
+            letter-spacing: -2px;
+            text-align: center;
+            color: $dg;
+
+            strong {
+                letter-spacing: -1.7px;
+            }
+        }
+
+        p {
+            margin-top: 20px;
+            width: 600px;
+            text-align: center;
+            font-size: 18px;
+            letter-spacing: -0.5px;
+            line-height: 26px;
+            color: $gray;
+        }
+    }
+
+    .alternado {
+        width: 80%;
+        display: flex;
+        align-items: center;
+        margin-top: 80px;
+
+        .alttext {
+            width: 500px;
+
+            h5 {
+                font-size: 16px;
+                letter-spacing: -0.4px;
+                font-weight: 600;
+                color: $orange;
+            }
+
+            h3 {
+                font-size: 36px;
+                line-height: 44px;
+                letter-spacing: -1.5px;
+                font-weight: 400;
+                margin-top: 5px;
+            }
+
+            p {
+                color: $gray;
+                margin-top: 10px;
+                font-size: 16px;
+                letter-spacing: -0.3px;
+                line-height: 23px;
+            }
+
+            a {
+                background-color: $orange;
+                color: white;
+                text-decoration: none;
+                padding: 13px 18px;
+                border-radius: 8px;
+                font-size: 20px;
+                line-height: 26px;
+                letter-spacing: -0.5px;
+                font-weight: 600;
+                margin-top: 20px;
+                display: block;
+                position: relative;
+                width: 220px;
+                text-align: center;
+
+                &:hover {
+                    background-color: $orangehover;
+                }
+            }
+        }
+    }
+
+    .alt1 {
+        flex-direction: row-reverse;
+    }
+}

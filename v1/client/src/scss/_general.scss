@@ -1,0 +1,95 @@
+body {
+    background-color: white;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    font-family: Bergern, sans-serif;
+
+    * {
+        background-color: rgba(0,0,0,0);
+        display: block;
+        //position: relative;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        margin-left: auto;
+        margin-right: auto;
+        box-sizing: border-box;
+        transition: all 0.15s ease;
+
+        &::selection {
+            background-color: $orange;
+            color: white;
+        }
+    }
+
+    h1, h2, h3, h4, h5, h6 {
+        font-weight: 600;
+    }
+
+    strong {
+        display: inline;
+        font-weight: 600;
+    }
+
+    form {
+        input {
+            font-family: Bergern;
+
+            &::placeholder {
+                font-family: Bergern;
+            }
+
+            &:focus {
+                outline: none;
+            }
+        }
+    }
+
+    a {
+        display: inline;
+        margin: 0px;
+    }
+
+    ul {
+        list-style: none;
+    }
+}
+
+@font-face {
+    font-family: Bergern;
+    src: url(../bergern/Bergern-Thin.otf);
+    font-weight: 100;
+}
+
+@font-face {
+    font-family: Bergern;
+    src: url(../bergern/BergernExtraLight.otf);
+    font-weight: 200;
+}
+
+@font-face {
+    font-family: Bergern;
+    src: url(../bergern/Bergern.otf);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: Bergern;
+    src: url(../bergern/Bergern-SemiBold.otf);
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: Bergern;
+    src: url(../bergern/Bergern-Bold.otf);
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: Bergern;
+    src: url(../bergern/Bergern-Black.otf);
+    font-weight: 900;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');

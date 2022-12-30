@@ -1,0 +1,392 @@
+@import './values';
+
+.banner {
+
+    width: 100vw;
+    background-color: $dg;
+    color: white;
+    z-index: 0;
+    padding-bottom: 80px;
+
+    .bannercontent {
+        display: flex;
+        width: 80%;
+        gap: 100px;
+        align-items: center;
+        margin-top: 70px;
+
+        .bannertext {
+
+            h5 {
+                color: $orange;
+                font-weight: 600;
+                letter-spacing: -0.7px;
+                font-size: 16px;
+            }
+
+            h2 {
+                font-weight: 400;
+                font-size: 40px;
+                letter-spacing: -2px;
+                margin-top: 5px;
+
+                strong {
+                    font-weight: 600;
+                }
+            }
+            form {
+                display: flex;
+                justify-content: flex-start;
+                margin-top: 10px;
+
+                * {
+                    margin-left: 0px;
+                    margin-right: 0px;
+                }
+
+                .mailinput {
+                    background-color: #252525;
+                    color: white;
+                    font-size: 17px;
+                    height: 50px;
+                    width: 280px;
+                    padding: 0px 20px;
+                    border-radius: 8px;
+                    border: 1.5px solid #252525;
+                    font-family: Bergern;
+
+                    &:focus {
+                        outline: none;
+                        border: 1.5px solid #646464;
+                    }
+
+                    &::placeholder {
+                        color: rgb(200,200,200);
+                        font-size: 17px;
+                    }
+
+                    &::selection {
+                        background-color: $orange;
+                    }
+                }
+
+                .bannersubmit {
+                    background-color: $orange;
+                    border: none;
+                    color: white;
+                    font-size: 17px;
+                    font-weight: 600;
+                    font-family: Bergern;
+                    box-sizing: content-box;
+                    padding-left: 35px;
+                    padding-right: 35px;
+                    border-radius: 8px;
+                    margin-left: 10px;
+                    cursor: pointer;
+                    letter-spacing: -0.5px;
+
+                    &:hover {
+                        background-color: $orangehover;
+                    }
+                }
+            }
+
+            p {
+                font-size: 18px;
+                letter-spacing: -1px;
+                line-height: 26px;
+                margin-top: 20px;
+            }
+        }
+    }
+}
+
+.content {
+    margin-top: 120px;
+
+    .centrados {
+        h1 {
+            font-size: 45px;
+            font-weight: 400;
+            letter-spacing: -2px;
+            text-align: center;
+            color: $dg;
+        }
+
+        p {
+            margin-top: 20px;
+            width: 600px;
+            text-align: center;
+            font-size: 18px;
+            letter-spacing: -0.5px;
+            line-height: 26px;
+            color: $gray;
+        }
+    }
+
+    .alternado {
+        width: 80%;
+        display: flex;
+        align-items: center;
+        margin-top: 80px;
+
+        .alttext {
+            width: 450px;
+
+            h5 {
+                font-size: 16px;
+                letter-spacing: -0.4px;
+                font-weight: 600;
+                color: $orange;
+            }
+
+            h3 {
+                font-size: 36px;
+                line-height: 44px;
+                letter-spacing: -1.5px;
+                font-weight: 400;
+                margin-top: 5px;
+            }
+
+            p {
+                color: $gray;
+                margin-top: 10px;
+                font-size: 16px;
+                letter-spacing: -0.3px;
+                line-height: 23px;
+            }
+        }
+    }
+
+    .alt1 {
+        flex-direction: row-reverse;
+    }
+
+    .fourdivide {
+        background-color: $ow;
+        padding-top: 65px;
+        margin-top: 100px;
+        padding-bottom: 70px;
+
+        h1 {
+            text-align: center;
+            font-size: 50px;
+            line-height: 62px;
+            letter-spacing: -1.5px;
+            font-weight: 600;
+            width: 700px;
+        }
+
+        p {
+            font-size: 18px;
+            line-height: 26px;
+            text-align: center;
+            width: 550px;
+            margin-top: 10px;
+        }
+
+        img {
+            margin-top: 50px;
+            width: 75%;
+        }
+
+        .foursteps {
+            width: 75%;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            grid-column-gap: 3%;
+            margin-top: 25px;
+
+            .step {
+                h4 {
+                    font-size: 22px;
+                    line-height: 30px;
+                    letter-spacing: -0.55px;
+                }
+
+                p {
+                    width: auto;
+                    font-size: 16px;
+                    line-height: 24px;
+                    text-align: left;
+                    margin-top: 10px;
+                    letter-spacing: -0.5px;
+                }
+            }
+        }
+    }
+
+    .precios {
+        margin-top: 100px;
+
+        h1 {
+            font-size: 56px;
+            letter-spacing: -2.4px;
+            text-align: center;
+        }
+
+        p {
+            font-size: 18px;
+            line-height: 26px;
+            letter-spacing: -0.3px;
+            width: 550px;
+            text-align: center;
+            margin-top: 15px;
+        }
+
+        .youturnmeon {
+            margin-top: 35px;
+            display: grid;
+            grid-template-columns: 100px 65px 100px;
+            gap: 10px;
+            width: 285px;
+            justify-content: space-between;
+            align-items: center;
+
+            * {
+                margin-left: none;
+                margin-right: none;
+            }
+
+            h5 {
+                color: $db;
+                font-size: 16px;
+                letter-spacing: -0.4px;
+                width: 100px;
+                bottom: -2px;
+                position: relative;
+            }
+
+            .izq {
+                text-align: right;
+            }
+
+            .likealightswitch {
+                width: 65px;
+                height: 35px;
+                border: 2px solid $db;
+                border-radius: 100px;
+                cursor: pointer;
+                display: flex;
+                padding: 3px;
+
+                .charlieputh {
+                    height: 25px;
+                    width: 25px;
+                    background-color: $db;
+                    border-radius: 100px;
+                    margin-top: 0px;
+                    margin-left: 0px;
+                    margin-right: 0px;
+                }
+            }
+        }
+
+        .planes {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-column-gap: 40px;
+            width: 850px;
+            margin-top: 40px;
+
+            .plan {
+                border: 1px solid $lg;
+                border-radius: 8px;
+                box-shadow: 0px 0px 5px rgb(0,0,0,0.025);
+                padding-top: 30px;
+                width: 100%;
+                padding-bottom: 30px;
+                cursor: pointer;
+
+                h3 {
+                    text-align: center;
+                    font-size: 22px;
+                    line-height: 30px;
+                    letter-spacing: -0.55px;
+                }
+
+                p {
+                    width: 230px;
+                    margin-top: 10px;
+                }
+
+                .precio {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    margin-top: 25px;
+
+                    * {
+                        margin-left: 0px;
+                        margin-right: 0px;
+                    }
+
+                    h2 {
+                        font-size: 56px;
+                        line-height: 62px;
+                        letter-spacing: -2.4px;
+                    }
+
+                    h6 {
+                        margin-left: 10px;
+                        font-size: 14px;
+                        line-height: 20px;
+                        letter-spacing: -0.4px;
+                        font-weight: 400;
+                    }
+                }
+            }
+
+            .plus {
+                border: 1px solid $dg;
+            }
+        }
+
+        .cta {
+            background-color: $orange;
+            text-align: center;
+            display: block;
+            position: relative;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 50px;
+            font-size: 18px;
+            line-height: 22px;
+            letter-spacing: -0.4px;
+            width: auto;
+            color: white;
+            padding: 17px 20px;
+            cursor: pointer;
+            text-decoration: none;
+            width: 200px;
+            border-radius: 8px;
+            font-weight: 600;
+
+            &:hover {
+                background-color: $orangehover;
+            }
+        }
+
+        .todavia {
+            font-size: 15px;
+            line-height: 26px;
+            letter-spacing: -0.2px;
+            font-weight: 400;
+            text-align: center;
+            margin-top: 30px;
+            width: 400px;
+            color: #aaaaaa;
+
+            strong {
+                font-weight: 400;
+                text-decoration: underline;
+                color: $orange;
+                cursor: pointer;
+
+                &:hover {
+                    color: $orangehover;
+                }
+            }
+        }
+    }
+}

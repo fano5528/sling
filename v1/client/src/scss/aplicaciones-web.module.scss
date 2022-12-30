@@ -1,0 +1,141 @@
+@import "./values";
+
+.banner {
+
+    width: 100vw;
+    background-color: $dg;
+    color: white;
+    z-index: 0;
+    padding-bottom: 80px;
+
+    .bannercontent {
+        display: flex;
+        width: 80%;
+        gap: 100px;
+        align-items: center;
+        margin-top: 70px;
+
+        .bannertext {
+
+            h5 {
+                color: $orange;
+                font-weight: 600;
+                letter-spacing: -0.7px;
+                font-size: 16px;
+            }
+
+            h2 {
+                font-weight: 400;
+                font-size: 40px;
+                letter-spacing: -2px;
+                margin-top: 5px;
+
+                strong {
+                    font-weight: 600;
+                }
+            }
+
+            form {
+                display: flex;
+                justify-content: flex-start;
+                margin-top: 10px;
+
+                * {
+                    margin-left: 0px;
+                    margin-right: 0px;
+                }
+
+                .mailinput {
+                    background-color: #252525;
+                    color: white;
+                    font-size: 17px;
+                    height: 50px;
+                    width: 280px;
+                    padding: 0px 20px;
+                    border-radius: 8px;
+                    border: 1.5px solid #252525;
+                    font-family: Bergern;
+
+                    &:focus {
+                        outline: none;
+                        border: 1.5px solid #646464;
+                    }
+
+                    &::placeholder {
+                        color: rgb(200,200,200);
+                        font-size: 17px;
+                    }
+
+                    &::selection {
+                        background-color: $orange;
+                    }
+                }
+
+                .bannersubmit {
+                    background-color: $orange;
+                    border: none;
+                    color: white;
+                    font-size: 17px;
+                    font-weight: 600;
+                    font-family: Bergern;
+                    box-sizing: content-box;
+                    padding-left: 35px;
+                    padding-right: 35px;
+                    border-radius: 8px;
+                    margin-left: 10px;
+                    cursor: pointer;
+                    letter-spacing: -0.5px;
+
+                    &:hover {
+                        background-color: $orangehover;
+                    }
+                }
+            }
+
+            p {
+                font-size: 18px;
+                letter-spacing: -1px;
+                line-height: 26px;
+                margin-top: 10px;
+            }
+
+            .applinks {
+                margin-top: 20px;
+                display: flex;
+                gap: 25px;
+
+                .hablemos {
+                    background-color: $orange;
+                    color: white;
+                    font-size: 17px;
+                    line-height: 28px;
+                    letter-spacing: -0.5px;
+                    padding: 15px 35px 13px 35px;
+                    border-radius: 8px;
+                    text-decoration: none;
+                    font-weight: 600;
+
+                    &:hover {
+                        background-color: $orangehover;
+                    }
+                }
+    
+                .saber {
+                    color: white;
+                    border: 1px solid white;
+                    border-radius: 8px;
+                    font-size: 17px;
+                    line-height: 28px;
+                    letter-spacing: -0.4px;
+                    padding: 15px 30px 13px 30px;
+                    text-decoration: none;
+
+                    &:hover {
+                        border-color: #cccccc;
+                        color: #cccccc;
+                    }
+                }
+            }
+        }
+    }
+}
