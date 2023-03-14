@@ -1,6 +1,6 @@
 import { React, useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
-import logo from '../gray.png'
+import logo from '../logo.png'
 import { useSpring, animated } from 'react-spring'
 
 export default function Header() {
@@ -39,7 +39,6 @@ export default function Header() {
                 </ul>
             </nav>
             <div className="headericons">
-                <span className="material-symbols-outlined">search</span>
                 <span className="material-symbols-outlined hola">person</span>
             </div>
         </animated.header>

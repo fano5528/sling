@@ -7,10 +7,12 @@ import SitiosWeb from './pages/sitios-web'
 import AplicacionesWeb from './pages/aplicaciones-web'
 import 'material-symbols';
 import { ParallaxProvider } from 'react-scroll-parallax'
+import ScrollToTop from './components/ScrollToTop'
 
 function App() {
   return (
     <>
+      <ScrollToTop>
       <Header/>
       <ParallaxProvider>
         <Routes>
@@ -20,6 +22,7 @@ function App() {
         </Routes>
       </ParallaxProvider>
       <Footer/>
+      </ScrollToTop>
     </>
   )
 }

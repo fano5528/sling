@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import logo from '../halfwhite.png'
+import logo from '../whitered.png'
 
 export default function Whitebanheader() {
     return (

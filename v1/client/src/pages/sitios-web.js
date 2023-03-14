@@ -13,7 +13,7 @@ import sitiosbanner from '../sitiosbanner.png'
 import sitios1 from '../sitios1.png'
 import sitios2 from '../sitios2.png'
 import sitios3 from '../sitios3.png'
-import sitios4 from '../sitios4.svg'
+import sitios4 from '../sitios4.png'
 
 
 export default function SitiosWeb() {
@@ -22,7 +22,7 @@ export default function SitiosWeb() {
     const [plus, setPlus] = useState(true);
 
     useEffect(()=>{
-        document.title = "Sitios web | Sling"
+        document.title = "Sitios web | Internaut"
     },[])
 
     useEffect(()=>{
@@ -52,12 +52,12 @@ export default function SitiosWeb() {
                 <div className={style.centrados}>
                     <Parallax speed={0}>
                         <h1>Creemos que tu sitio web debe<br/>ser <strong>bueno, bonito y barato.</strong></h1>
-                        <p>Imagínate una agencia de diseño web, pero sin los elevados precios. ¡Eso es sling! Obtén un sitio hecho por profesionales, y paga tan poco como si lo hubieras construido tú mismo.</p>
+                        <p>Imagínate una agencia de diseño web, pero sin los elevados precios. ¡Eso es internaut! Obtén un sitio hecho por profesionales, y paga como si lo hubieras construido tú mismo.</p>
                     </Parallax>
                 </div>
                 <div className={ `${style.alternado} ${style.alt1}` }>
                     <Parallax speed={1} className={style.alttext}>
-                        <h5>Bueno</h5>
+                        <h5>1. Bueno</h5>
                         <h3>Un buen sitio es aquel que <strong>te ayuda a vender.</strong></h3>
                         <p>El fin de cualquier sitio web debería ser simple: conseguir más ventas. Con esto en mente, diseñamos tu sitio con formularios de contacto y links a tus redes sociales, para conseguirte más clientes y más rápido.</p>
                     </Parallax>
@@ -67,7 +67,7 @@ export default function SitiosWeb() {
                 </div>
                 <div className={`${style.alternado} ${style.alt2}` }>
                     <Parallax speed={1} className={style.alttext}>
-                        <h5>Bonito</h5>
+                        <h5>2. Bonito</h5>
                         <h3>Haz que tus clientes digan: <strong>“¡que bonito es lo bonito!”</strong></h3>
                         <p>Somos unos apasionados del buen diseño, y trabajamos sin descansar para crear las páginas más atractivas del mercado. Nuestra meta no sólo es sorprenderte a ti, sino sorprender también a tus clientes.</p>
                     </Parallax>
@@ -77,9 +77,9 @@ export default function SitiosWeb() {
                 </div>
                 <div className={`${style.alternado} ${style.alt1}` }>
                     <Parallax speed={1} className={style.alttext}>
-                        <h5>Barato</h5>
-                        <h3>El que quiere azul celeste, <strong>que no le cueste taaanto.</strong></h3>
-                        <p>Sí, es verdad que todo lo bueno cuesta. Pero en sling, nos esforzamos por reducir tus costos lo más posible, para ofrecerte más por cada peso invertido. Por eso, en tu plan mensual, ¡el dominio y el hosting van por nuestra cuenta!</p>
+                        <h5>3. Barato</h5>
+                        <h3>El que quiere azul celeste, <strong>que no le cueste taanto.</strong></h3>
+                        <p>Sí, es verdad que todo lo bueno cuesta. Pero en internaut, nos esforzamos por reducir tus costos lo más posible, para ofrecerte más por cada peso invertido. Por eso, en tu plan mensual, ¡el dominio y el hosting van por nuestra cuenta!</p>
                     </Parallax>
                     <Parallax speed={4}>
                         <img src={sitios3} className={style.altimg}/>
@@ -110,7 +110,7 @@ export default function SitiosWeb() {
                 </div>
                 <div className={style.precios}>
                     <h1>Precios</h1>
-                    <p>En sling, te ofrecemos la opción de rentar o de comprar tu sitio web. Puedes pagar una renta fija mensual, o pagar el precio de compra y ser dueño de tu sitio.</p>
+                    <p>En internaut, puedes escoger entre rentar o comprar tu sitio web.</p>
                     <div className={style.youturnmeon}>
                         <h5 className={style.izq}>Renta</h5>
                         <div className={style.likealightswitch} onClick={()=> { setRenta(!renta) } }>

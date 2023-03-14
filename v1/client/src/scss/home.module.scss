@@ -7,9 +7,9 @@
     h1 {
         text-align: center;
         margin-top: 160px;
-        font-size: 72px;
-        line-height: 80px;
-        letter-spacing: -3px;
+        font-size: 60px;
+        line-height: 72px;
+        letter-spacing: -2px;
         color: $dg;
 
         strong {
@@ -20,24 +20,25 @@
     p {
         font-size: 20px;
         line-height: 28px;
-        letter-spacing: -0.4px;
+        letter-spacing: -0.3px;
         width: 550px;
         text-align: center;
         margin-top: 15px;
     }
 
     .homebanner {
-        margin-top: 150px;
+        margin-top: 100px;
         display: block;
         position: relative;
+        width: 70vw;
     }
 }
 
 .content {
     .venimos {
-        background-color: $ow;
-        padding-top: 60px;
-        padding-bottom: 60px;
+        background-color: #eaeaea;
+        padding-top: 90px;
+        padding-bottom: 90px;
         margin-top: 100px;
         display: flex;
         width: 100vw;
@@ -46,13 +47,13 @@
         align-items: center;
     
         .title {
-            width: 600px;
+            width: 500px;
     
             h1 {
                 color: $dg;
-                font-size: 56px;
+                font-size: 42px;
                 letter-spacing: 62px;
-                letter-spacing: -2.4px;
+                letter-spacing: -1px;
             }
     
             p {
@@ -91,7 +92,7 @@
                     h4 {
                         font-size: 22px;
                         line-height: 30px;
-                        letter-spacing: -0.55px;
+                        letter-spacing: -0.4px;
                         color: $db;
                     }
     
@@ -110,14 +111,15 @@
         margin-top: 100px;
 
         h1 {
-            font-size: 45px;
+            font-size: 40px;
             font-weight: 400;
-            letter-spacing: -2px;
+            letter-spacing: -1.2px;
             text-align: center;
             color: $dg;
 
             strong {
-                letter-spacing: -1.7px;
+                letter-spacing: -1.2px;
+                color: $orange;
             }
         }
 
@@ -138,12 +140,16 @@
         align-items: center;
         margin-top: 80px;
 
+        .altimg {
+            width: 500px;
+        }
+
         .alttext {
             width: 500px;
 
             h5 {
                 font-size: 16px;
-                letter-spacing: -0.4px;
+                letter-spacing: -0.2px;
                 font-weight: 600;
                 color: $orange;
             }
@@ -151,7 +157,7 @@
             h3 {
                 font-size: 36px;
                 line-height: 44px;
-                letter-spacing: -1.5px;
+                letter-spacing: -0.5px;
                 font-weight: 400;
                 margin-top: 5px;
             }
@@ -160,7 +166,7 @@
                 color: $gray;
                 margin-top: 10px;
                 font-size: 16px;
-                letter-spacing: -0.3px;
+                letter-spacing: -0.1px;
                 line-height: 23px;
             }
 
@@ -177,7 +183,7 @@
                 margin-top: 20px;
                 display: block;
                 position: relative;
-                width: 220px;
+                width: 200px;
                 text-align: center;
 
                 &:hover {
@@ -190,4 +196,18 @@
     .alt1 {
         flex-direction: row-reverse;
     }
+}
+
+@media screen
+and (min-width: 768px)
+and (max-width: 991px) {
+}
+
+@media screen
+and (min-width: 478px)
+and (max-width: 767px) {
+}
+
+@media screen
+and (max-width: 480px) {
 }

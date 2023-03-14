@@ -1,7 +1,90 @@
-<svg width="1019" height="16" viewBox="0 0 1019 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-<rect y="8.26953" width="1019" height="0.918846" fill="#FF5D48"/>
-<circle cx="792.505" cy="7.81019" r="7.81019" fill="#FF5D48"/>
-<circle cx="530.633" cy="7.81019" r="7.81019" fill="#FF5D48"/>
-<circle cx="268.762" cy="7.81019" r="7.81019" fill="#FF5D48"/>
-<circle cx="7.81019" cy="7.81019" r="7.81019" fill="#FF5D48"/>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="1019"
+   height="16"
+   viewBox="0 0 1019 16"
+   fill="none"
+   version="1.1"
+   id="svg866"
+   sodipodi:docname="sitios4.svg"
+   inkscape:version="1.0.2 (e86c8708, 2021-01-15)"
+   inkscape:export-filename="/Users/josefano/Desktop/fd/sling/website/v1/client/src/sitios4.png"
+   inkscape:export-xdpi="180"
+   inkscape:export-ydpi="180">
+  <metadata
+     id="metadata872">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs870" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1440"
+     inkscape:window-height="900"
+     id="namedview868"
+     showgrid="false"
+     inkscape:zoom="0.65722008"
+     inkscape:cx="603.88174"
+     inkscape:cy="-16.371539"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg866" />
+  <rect
+     y="8.26953"
+     width="1019"
+     height="0.918846"
+     fill="#FF5D48"
+     id="rect856"
+     style="fill:#fb3640;fill-opacity:1" />
+  <circle
+     cx="792.505"
+     cy="7.81019"
+     r="7.81019"
+     fill="#FF5D48"
+     id="circle858"
+     style="fill:#fb3640;fill-opacity:1" />
+  <circle
+     cx="530.633"
+     cy="7.81019"
+     r="7.81019"
+     fill="#FF5D48"
+     id="circle860"
+     style="fill:#fb3640;fill-opacity:1" />
+  <circle
+     cx="268.762"
+     cy="7.81019"
+     r="7.81019"
+     fill="#FF5D48"
+     id="circle862"
+     style="fill:#fb3640;fill-opacity:1" />
+  <circle
+     cx="7.81019"
+     cy="7.81019"
+     r="7.81019"
+     fill="#FF5D48"
+     id="circle864"
+     style="fill:#fb3640;fill-opacity:1" />
 </svg>

@@ -3,6 +3,7 @@ import { React, useEffect, useState } from 'react'
 import { animated, useSpring } from 'react-spring'
 import { Parallax } from 'react-scroll-parallax'
 import { Link } from 'react-router-dom'
+import { Helmet } from 'react-helmet'
 
 //sling
 import style from '../scss/home.module.scss'
@@ -19,6 +20,9 @@ import home5 from '../home5.png'
 export default function Home() {
     return (
         <>
+            <Helmet>
+                <title>Home | Internaut</title>
+            </Helmet>
             <div className={style.banner}>
                 <Blackbanheader/>
                 <h1>México, bienvenido al<br/>futuro del <strong>diseño web.</strong></h1>
@@ -56,7 +60,7 @@ export default function Home() {
                             </div>
                             <div className={style.elementtext}>
                                 <h4>Bajos costos</h4>
-                                <p>Buscamos que todo el mundo pueda tener un gran sitio web.</p>
+                                <p>Todo el mundo debería poder tener un gran sitio web.</p>
                             </div>
                         </div>
                     </div>
@@ -66,23 +70,23 @@ export default function Home() {
                 </div>
                 <div className={`${style.alternado} ${style.alt2}` }>
                     <Parallax speed={1} className={style.alttext}>
-                        <h5>Nuestra oferta: sitios web</h5>
+                        <h5>Sitios web</h5>
                         <h3>Para <strong>pequeñas empresas</strong> buscando darse a conocer.</h3>
                         <p>Diseñamos, programamos, y lanzamos tu sitio web; ¡por tan sólo $499 al mes! Además, el dominio y el hosting van por nuestra cuenta.</p>
-                        <Link to="/sitios-web">¡Aprender más!</Link>
+                        <Link to="/sitios-web">Aprender más</Link>
                     </Parallax>
-                    <Parallax speed={4}>
+                    <Parallax speed={5}>
                         <img src={home4} className={style.altimg}/>
                     </Parallax>
                 </div>
                 <div className={`${style.alternado} ${style.alt1}` }>
                     <Parallax speed={1} className={style.alttext}>
-                        <h5>Nuestra oferta: aplicaciones web</h5>
+                        <h5>Aplicaciones web</h5>
                         <h3>Soluciones comprensivas para <strong>empresas en crecimiento.</strong></h3>
-                        <p>Conocemos lo difícil y confuso que puede ser comenzar una aplicación web desde cero. Por ello, nosotros estamos listos para hacer todo ese trabajo por ti.</p>
-                        <Link to="/aplicaciones-web">¡Aprender más!</Link>
+                        <p>Conocemos lo difícil y confuso que puede ser comenzar una aplicación web desde cero. Por ello, estamos listos para hacer ese trabajo por ti.</p>
+                        <Link to="/aplicaciones-web">Aprender más</Link>
                     </Parallax>
-                    <Parallax speed={4}>
+                    <Parallax speed={5}>
                         <img src={home5} className={style.altimg}/>
                     </Parallax>
                 </div>
